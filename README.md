@@ -101,3 +101,58 @@ Customer-Churn-Prediction/
 │── Customer Churn Prediction.ipynb
 │── dataset.csv
 │── README.md
+
+🏠 Delhi House Price Prediction | Machine Learning
+📌 Overview
+
+This project predicts house prices in Delhi using machine learning regression models. It analyzes property features such as area, BHK, locality, furnishing, and parking to estimate realistic house prices and understand market trends.
+
+🎯 Objective
+
+Predict house prices in different Delhi localities
+
+Identify key factors influencing property prices
+
+Compare regression model performance
+
+📊 Dataset
+
+Source: Kaggle
+
+Size: 1259 rows × 11 features
+
+Key features: Area, BHK, Bathroom, Locality, Furnishing, Parking, Transaction type
+
+Target: Price (INR)
+
+🧠 Models Used
+
+Decision Tree Regressor
+
+Random Forest Regressor (best performance)
+
+📈 Results
+
+Random Forest achieved ~85% R² score
+
+Area, BHK, and locality were the strongest price drivers
+
+Posh localities (Punjabi Bagh, Lajpat Nagar, Vasant Kunj) showed higher prices 
+
+Delhi House Price Prediction
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+Delhi-House-Price-Prediction/
+│── Delhi House Price Prediction.ipynb
+│── dataset.csv
+│── README.md

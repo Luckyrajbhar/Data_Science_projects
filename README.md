@@ -419,3 +419,74 @@ Loan-Approval-Prediction/
 │── loan_approval_dataset.csv
 
 
+🚢 Titanic Survival Prediction | Machine Learning
+📌 Overview
+
+This project predicts passenger survival on the Titanic using machine learning classification models. It analyzes demographic and travel-related features to understand survival patterns during the disaster.
+
+🎯 Objective
+
+Predict whether a passenger survived (1) or not (0)
+
+Perform data preprocessing, EDA, and model comparison
+
+Select the best-performing classification model
+
+📊 Dataset
+
+Source: Kaggle – Titanic Dataset
+
+Records: 891 passengers
+
+Key features:
+
+Pclass, Sex, Age
+
+SibSp, Parch
+
+Fare, Embarked
+
+Target: Survived (0 = No, 1 = Yes)
+
+🧠 Models Used
+
+Logistic Regression
+
+Decision Tree Classifier (best performance)
+
+Support Vector Machine (SVM)
+
+K-Nearest Neighbors (KNN)
+
+📈 Results
+
+Decision Tree Accuracy: ~94% (training)
+
+Test accuracy: ~89%
+
+Survival strongly influenced by:
+
+Gender (female survival higher)
+
+Passenger class
+
+Fare and age
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+Titanic-Survival-Prediction/
+│── Titanic Prediction.ipynb
+│── titanic_train.csv
+│── titanic_test.csv
+
+
+

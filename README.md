@@ -489,4 +489,78 @@ Titanic-Survival-Prediction/
 │── titanic_test.csv
 
 
+🚗 Belarus Car Price Prediction | Machine Learning
+📌 Overview
+
+This project predicts used car prices in Belarus using machine learning regression models. It analyzes vehicle features such as brand, year, engine volume, fuel type, transmission, mileage, drive unit, and segment to estimate car prices and identify key pricing factors.
+
+🎯 Objective
+
+Predict car prices in USD
+
+Identify features with the highest impact on price
+
+Build and evaluate a regression model
+
+📊 Dataset
+
+Source: Kaggle
+
+Size: 56,244 rows × 12 columns
+
+Key features:
+
+Make, Year, Condition
+
+Mileage, Fuel Type
+
+Engine Volume (cm³)
+
+Transmission, Drive Unit
+
+Car Segment
+
+Target: priceUSD
+
+🧠 Model Used
+
+Decision Tree Regressor
+
+Hyperparameter tuning using GridSearchCV
+
+📈 Results
+
+R² Score: ~85.3%
+
+RMSE: ~2169
+
+Most important features:
+
+Year of manufacture
+
+Engine volume (cm³)
+
+Specialty and luxury European cars showed the highest prices
+
+Electric and all-wheel-drive cars were significantly more expensive 
+
+Belarus Car Price Prediction
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+Belarus-Car-Price-Prediction/
+│── Belarus Car Price Prediction.ipynb
+│── cars.csv
+
+
+
 

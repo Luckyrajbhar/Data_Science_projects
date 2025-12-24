@@ -215,3 +215,71 @@ Diamond-Price-Prediction/
 │── Diamond Price Prediction.ipynb
 │── dataset.csv
 │── README.md
+
+
+📦 E-Commerce Product Delivery Prediction | Machine Learning
+📌 Overview
+
+This project predicts whether an e-commerce product will be delivered on time or delayed using machine learning classification models. It also analyzes customer behavior and logistics factors affecting delivery performance.
+
+🎯 Objective
+
+Predict on-time vs late delivery
+
+Identify key factors influencing delivery delays
+
+Compare multiple classification models
+
+📊 Dataset
+
+Records: 10,999 orders
+
+Features: Warehouse block, shipment mode, product weight, cost, discount, customer rating, prior purchases
+
+Target: Reached.on.Time_Y.N
+
+0 → Delivered on time
+
+1 → Not delivered on time 
+
+E-Commerce Product Delivery Pre…
+
+🧠 Models Used
+
+Random Forest Classifier
+
+Decision Tree Classifier (best accuracy ~69%)
+
+Logistic Regression
+
+K-Nearest Neighbors 
+
+E-Commerce Product Delivery Pre…
+
+📈 Key Insights
+
+Product weight and cost significantly affect delivery delays
+
+Higher customer care calls indicate delayed deliveries
+
+Customers with more prior purchases receive timely deliveries more often
+
+Shipment mode and warehouse block have minimal impact 
+
+E-Commerce Product Delivery Pre…
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+E-Commerce-Product-Delivery-Prediction/
+│── E-Commerce Product Delivery Prediction.ipynb
+│── dataset.csv
+│── README.md

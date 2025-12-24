@@ -46,3 +46,58 @@ Breast-Cancer-Prediction/
 │── Breast Cancer Prediction.ipynb
 │── dataset.csv
 │── README.md
+
+📉 Customer Churn Prediction | Machine Learning
+📌 Overview
+
+This project predicts whether a bank customer will churn (leave the bank) based on demographic and financial information. It helps businesses identify at-risk customers and improve retention strategies.
+
+🎯 Objective
+
+Predict customer churn (Yes / No)
+
+Analyze key factors influencing churn
+
+Compare classification models
+
+📊 Dataset
+
+Source: Kaggle
+
+Size: 10,000 records, 14 features
+
+Key features: Age, Geography, Tenure, Balance, Credit Score, Products, Activity status
+
+Target: Churn (0 = Retained, 1 = Churned)
+
+🧠 Models Used
+
+Decision Tree Classifier
+
+Random Forest Classifier (best performance)
+
+Hyperparameter tuning using GridSearchCV
+
+📈 Results
+
+Random Forest achieved ~87% accuracy
+
+Better precision and recall compared to Decision Tree
+
+Key churn factors: Age, Geography, Tenure, Balance, Number of Products
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+Customer-Churn-Prediction/
+│── Customer Churn Prediction.ipynb
+│── dataset.csv
+│── README.md

@@ -156,3 +156,62 @@ Delhi-House-Price-Prediction/
 │── Delhi House Price Prediction.ipynb
 │── dataset.csv
 │── README.md
+
+💎 Diamond Price Prediction | Machine Learning
+📌 Overview
+
+This project predicts diamond prices using machine learning regression models based on physical and quality attributes such as carat, cut, color, clarity, and dimensions. The goal is to understand pricing patterns and build an accurate predictive model.
+
+🎯 Objective
+
+Predict diamond prices in USD
+
+Analyze factors influencing price
+
+Compare regression model performance
+
+📊 Dataset
+
+Source: Kaggle – Diamonds Dataset
+
+Records: ~50,000 diamonds
+
+Features: Carat, Cut, Color, Clarity, Depth, Table, X, Y, Z
+
+Target: Price (USD) 
+
+Diamond Price Prediction
+
+🧠 Models Used
+
+Decision Tree Regressor
+
+Random Forest Regressor (best performance)
+
+📈 Results
+
+Random Forest R² Score: ~97%
+
+RMSE: ~620
+
+MAE: ~306
+
+Carat was the strongest predictor of price 
+
+Diamond Price Prediction
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+Diamond-Price-Prediction/
+│── Diamond Price Prediction.ipynb
+│── dataset.csv
+│── README.md

@@ -341,3 +341,81 @@ Stroke-Prediction/
 │── Stroke Prediction.ipynb
 │── healthcare-dataset-stroke-data.csv
 
+
+💰 Loan Approval Prediction | Machine Learning
+📌 Overview
+
+This project predicts whether a loan application will be approved or rejected using machine learning classification models. It analyzes applicant financial details, credit score, income, assets, and loan parameters to support data-driven lending decisions 
+
+Loan Approval Prediction
+
+.
+
+🎯 Objective
+
+Predict loan approval status (Approved / Rejected)
+
+Identify key factors influencing loan approval
+
+Compare classification model performance
+
+📊 Dataset
+
+Records: 4,269 applicants
+
+Key features:
+
+Income, Loan Amount, Loan Tenure
+
+CIBIL Score
+
+Education, Employment Status
+
+Movable & Immovable Assets
+
+Target: loan_status (Approved / Rejected) 
+
+Loan Approval Prediction
+
+🧠 Models Used
+
+Decision Tree Classifier (best performing model)
+
+Random Forest Classifier 
+
+Loan Approval Prediction
+
+📈 Results
+
+Decision Tree Accuracy: ~91%
+
+Random Forest Accuracy: ~89%
+
+Key approval factors:
+
+High CIBIL score (>600)
+
+Higher income & assets
+
+Lower number of dependents
+
+Higher loan amount with shorter tenure 
+
+Loan Approval Prediction
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+Loan-Approval-Prediction/
+│── Loan Approval Prediction.ipynb
+│── loan_approval_dataset.csv
+
+

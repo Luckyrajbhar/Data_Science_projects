@@ -100,7 +100,7 @@ Scikit-learn
 Customer-Churn-Prediction/
 │── Customer Churn Prediction.ipynb
 │── dataset.csv
-│── README.md
+
 
 🏠 Delhi House Price Prediction | Machine Learning
 📌 Overview
@@ -155,7 +155,6 @@ Scikit-learn
 Delhi-House-Price-Prediction/
 │── Delhi House Price Prediction.ipynb
 │── dataset.csv
-│── README.md
 
 💎 Diamond Price Prediction | Machine Learning
 📌 Overview
@@ -214,7 +213,7 @@ Scikit-learn
 Diamond-Price-Prediction/
 │── Diamond Price Prediction.ipynb
 │── dataset.csv
-│── README.md
+
 
 
 📦 E-Commerce Product Delivery Prediction | Machine Learning
@@ -282,4 +281,63 @@ Scikit-learn
 E-Commerce-Product-Delivery-Prediction/
 │── E-Commerce Product Delivery Prediction.ipynb
 │── dataset.csv
-│── README.md
+
+
+🧠 Stroke Prediction | Machine Learning
+📌 Overview
+
+This project predicts the likelihood of a heart stroke using machine learning classification models based on patient health and lifestyle data. The goal is to assist in early risk identification and preventive healthcare analysis.
+
+🎯 Objective
+
+Predict whether a person is at risk of stroke
+
+Analyze health factors influencing stroke occurrence
+
+Compare multiple classification models
+
+📊 Dataset
+
+Records: 5,110 patients
+
+Features: Age, Gender, Hypertension, Heart Disease, BMI, Avg Glucose Level, Smoking Status, Work Type, Residence Type
+
+Target: stroke (0 = No Stroke, 1 = Stroke) 
+
+Stroke Prediction
+
+🧠 Models Used
+
+Logistic Regression
+
+Support Vector Machine (SVM)
+
+Decision Tree Classifier
+
+K-Nearest Neighbors (KNN)
+
+📈 Results
+
+Logistic Regression, SVM, and KNN achieved ~93.8% accuracy
+
+Decision Tree accuracy: ~91.8%
+
+Age, hypertension, heart disease, glucose level, and BMI are key risk factors 
+
+Stroke Prediction
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+📂 Project Structure
+Stroke-Prediction/
+│── Stroke Prediction.ipynb
+│── healthcare-dataset-stroke-data.csv
+
